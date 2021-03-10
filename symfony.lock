@@ -1,4 +1,19 @@
 {
+    "behat/behat": {
+        "version": "v3.8.1"
+    },
+    "behat/gherkin": {
+        "version": "v4.8.0"
+    },
+    "behat/transliterator": {
+        "version": "v1.3.0"
+    },
+    "bex/behat-extension-driver-locator": {
+        "version": "2.0.1"
+    },
+    "bex/behat-screenshot": {
+        "version": "2.1.0"
+    },
     "composer/package-versions-deprecated": {
         "version": "1.8.0"
     },
@@ -13,6 +28,12 @@
         "files": [
             "config/packages/test/dama_doctrine_test_bundle.yaml"
         ]
+    },
+    "dmore/behat-chrome-extension": {
+        "version": "1.3.0"
+    },
+    "dmore/chrome-mink-driver": {
+        "version": "2.7.0"
     },
     "doctrine/annotations": {
         "version": "1.0",
@@ -110,6 +131,30 @@
     },
     "erusev/parsedown": {
         "version": "1.7.4"
+    },
+    "friends-of-behat/mink": {
+        "version": "v1.9.0"
+    },
+    "friends-of-behat/mink-browserkit-driver": {
+        "version": "v1.5.0"
+    },
+    "friends-of-behat/mink-extension": {
+        "version": "v2.5.0"
+    },
+    "friends-of-behat/symfony-extension": {
+        "version": "2.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "2.0",
+            "ref": "3d21344765fd3440a85bdd27d4cada186ec628bd"
+        },
+        "files": [
+            "behat.yml.dist",
+            "config/services_test.yaml",
+            "features/demo.feature",
+            "tests/Behat/DemoContext.php"
+        ]
     },
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.2"
@@ -398,6 +443,9 @@
     "symfony/property-info": {
         "version": "v5.1.0-rc1"
     },
+    "symfony/proxy-manager-bridge": {
+        "version": "v5.2.3"
+    },
     "symfony/routing": {
         "version": "5.1",
         "recipe": {
@@ -538,6 +586,9 @@
     },
     "symfony/yaml": {
         "version": "v5.1.0-rc1"
+    },
+    "textalk/websocket": {
+        "version": "1.5.2"
     },
     "tgalopin/html-sanitizer": {
         "version": "1.4.0"
