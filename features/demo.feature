@@ -4,8 +4,13 @@ Feature: Check the Homepage
         When I am on the homepage
         Then I should see "Symfony demo"
 
+    Scenario: Check op technight article
+        Given I am on the homepage
+        Then I should see "Technight"
+        And I should see "Hij doet het"
+
     @javascript
-    Scenario: Search a text on the search page
+    Scenario: I search for "Lorem"
         When I open the search page
         And I search for "Lorem"
         Then I should see "Lorem Ipsum"
