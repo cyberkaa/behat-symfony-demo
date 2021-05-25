@@ -2,21 +2,19 @@
 
 /*
  * This file is part of the Symfony package.
- *
  * (c) Fabien Potencier <fabien@symfony.com>
- *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
 namespace App\Twig;
 
+use function Symfony\Component\String\u;
 use Twig\Environment;
 use Twig\Extension\AbstractExtension;
 use Twig\Template;
 use Twig\TemplateWrapper;
 use Twig\TwigFunction;
-use function Symfony\Component\String\u;
 
 /**
  * CAUTION: this is an extremely advanced Twig extension. It's used to get the
