@@ -1,4 +1,6 @@
 {
+    "name": "kaspervrind/behat-symfony-demo",
+    "description": "This is a demo application for the Developers.nl technight on 26 May 2021.",
     "license": "proprietary",
     "type": "project",
     "minimum-stability": "stable",
@@ -40,6 +42,7 @@
         "twig/markdown-extra": "^3.0"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-latest",
         "behat/behat": "^3.8",
         "bex/behat-screenshot": "^2.1",
         "dama/doctrine-test-bundle": "^6.2",
