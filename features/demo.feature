@@ -2,13 +2,7 @@ Feature: Check the Homepage
 
     Scenario: Check the homepage
         When I am on the homepage
-        Then I should see "Symfony demo"
-
-#    Todo: waarom is een toegevoegde post via beheer niet te checken met Behat
-    Scenario: Check op technight article
-        Given I am on the homepage
-        Then I should see "Technight"
-        And I should see "Hij doet het"
+        Then I should see the message "Symfony demo"
 
     @javascript
     Scenario: I search for "Lorem"
