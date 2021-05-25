@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App\Tests\Behat;
@@ -35,5 +36,4 @@ class DemoContext extends MinkContext
         $this->session->getPage()->fillField('q', $term);
         sleep(1);
     }
-
 }

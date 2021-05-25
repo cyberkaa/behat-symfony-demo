@@ -9,7 +9,7 @@ configure:
 	yarn install ; yarn encore dev
 
 boot:
-	symfony server:start
+	symfony serve
 
 behat:
 	vendor/bin/behat
