@@ -5,7 +5,8 @@ install:
 
 configure:
 	composer install
-	symfony server:ca:install
+	sudo symfony server:ca:install
+	yarn install ; yarn encore dev
 
 boot:
 	symfony server:start

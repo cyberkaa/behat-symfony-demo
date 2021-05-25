@@ -4,6 +4,7 @@ Feature: Check the Homepage
         When I am on the homepage
         Then I should see "Symfony demo"
 
+#    Todo: waarom is een toegevoegde post via beheer niet te checken met Behat
     Scenario: Check op technight article
         Given I am on the homepage
         Then I should see "Technight"
